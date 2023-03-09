@@ -1,0 +1,8 @@
+---
+- name:
+  hosts:
+  tasks:
+    - name: tar
+      unarchive:
+        src: hello
+        dest: hello
